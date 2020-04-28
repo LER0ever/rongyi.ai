@@ -1,0 +1,96 @@
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: "DAPPLE: A Pipelined Data Parallel Approach for Training Large Models"
+authors: [rongyi, "test"]
+date: 2020-04-17T17:43:59+08:00
+doi: ""
+
+# Schedule page publish date (NOT publication's date).
+publishDate: 2020-04-17T17:43:59+08:00
+
+# Publication type.
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ["1"]
+
+# Publication name and optional abbreviated publication name.
+publication: "DAPPLE: A Pipelined Data Parallel Approach for Training Large Models"
+publication_short: "DAPPLE"
+
+abstract: "It is a challenging task to train large DNN models on sophisticated
+GPU platforms with diversified interconnect capabilities. Popular
+distributed training paradigms include data parallelism and model
+parallelism. Recently, pipelined training has been proposed as an
+effective approach for improving device utilization and training
+throughput.However, there are still several tricky issues to address:
+improving computing efficiency while ensuring convergence, and
+reducing memory usage without incurring additional computing
+costs. We propose DAPPLE, a synchronous training framework
+which combines pipeline parallelism and data parallelism for large
+DNN models. It features a novel parallelization strategy planner to
+
+solve the partition and placement problems, and explores the optimal 
+hybrid strategy of data and pipeline parallelism. We also propose 
+a new runtime scheduling algorithm to reduce device memory
+
+usage and completely eliminate re-computation, while at the same
+time retain high GPU execution efficiency. Experimental results on
+
+representative image classification, machine translation and language 
+models benchmarks show that, the approach can consistently
+
+achieve optimal combination of data and pipeline parallelism for
+training large models. Beyond that, it also works well for medium
+scale models with relatively large weights yet small activations.
+Evaluation results show that, given a fixed global batch size, DAPPLE
+outperforms best data parallelism baselines with 1.71X/1.37X/1.79X
+training speedups on three typical cluster environments."
+
+# Summary. An optional shortened abstract.
+summary: ""
+
+tags: []
+categories: []
+featured: true
+
+# Custom links (optional).
+#   Uncomment and edit lines below to show custom links.
+# links:
+# - name: Follow
+#   url: https://twitter.com
+#   icon_pack: fab
+#   icon: twitter
+
+url_pdf:
+url_code:
+url_dataset:
+url_poster:
+url_project:
+url_slides:
+url_source:
+url_video:
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: []
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: ""
+---
