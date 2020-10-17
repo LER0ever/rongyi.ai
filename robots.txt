@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://rongyi.ai/sitemap.xml
