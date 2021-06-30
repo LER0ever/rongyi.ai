@@ -1,4 +1,4 @@
-
+https://rongyi.ai/ https://ai.rongyi.xyz/ 302! Country=cn
+https://rongyi.ai/* https://ai.rongyi.xyz/:splat 302! Country=cn
 https://ai.rongyi.xyz/* https://rongyi.ai/:splat 302 Country=us,uk
 https://ai.rongyi.xyz/* https://rongyi.ai/:splat 302 Language=en
-https://rongyi.ai/* https://ai.rongyi.xyz/:splat 302 Country=cn
