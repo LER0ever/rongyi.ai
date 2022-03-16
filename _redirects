@@ -1,3 +1,6 @@
+https://rongyi.ai/pdf/* https://ai.rongyi.xyz/pdf/:splat 302! Country=cn
+https://ai.rongyi.xyz/pdf/* https://rongyi.ai/pdf/:splat 302!
+
 https://rongyi.ai/ https://ai.rongyi.xyz/ 302! Country=cn
 https://rongyi.ai/* https://ai.rongyi.xyz/:splat 302! Country=cn
 https://ai.rongyi.xyz/en/* https://rongyi.ai/:splat 302!
